@@ -1,0 +1,26 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergey31990/Study.git"
+  },
+  "author": "Sergey Kozlovskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sergey31990/Study/issues"
+  },
+  "homepage": "https://github.com/Sergey31990/Study#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
